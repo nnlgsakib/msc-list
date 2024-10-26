@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Ethereum Mainnet",
+    "chain": "ETH",
+    "icon": "https://raw.githubusercontent.com/ethereum-lists/chains/refs/heads/master/_data/icons/ethereum.svg",
+    "rpc": [
+      "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+      "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
+      "https://api.mycryptoapi.com/eth",
+      "https://cloudflare-eth.com",
+      "https://ethereum-rpc.publicnode.com",
+      "wss://ethereum-rpc.publicnode.com",
+      "https://mainnet.gateway.tenderly.co",
+      "wss://mainnet.gateway.tenderly.co",
+      "https://rpc.blocknative.com/boost",
+      "https://rpc.flashbots.net",
+      "https://rpc.flashbots.net/fast",
+      "https://rpc.mevblocker.io",
+      "https://rpc.mevblocker.io/fast",
+      "https://rpc.mevblocker.io/noreverts",
+      "https://rpc.mevblocker.io/fullprivacy",
+      "https://eth.drpc.org",
+      "wss://eth.drpc.org"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://ethereum.org",
+    "shortName": "eth",
+    "chainId": 1,
+    "networkId": 1,
+    "ens": {
+      "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+    },
+    "explorers": [
+      {
+        "name": "etherscan",
+        "url": "https://etherscan.io",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "blockscout",
+        "url": "https://eth.blockscout.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      },
+      {
+        "name": "dexguru",
+        "url": "https://ethereum.dex.guru",
+        "icon": "dexguru",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Mind Smart Chain Mainnet",
+    "chain": "MIND",
+    "icon": "mindchain",
+    "rpc": [
+      "https://rpc-msc.mindchain.info/",
+      "https://seednode.mindchain.info",
+      "https://archive.mindchain.info/",
+      "https://mind-smart-chain.rpc.thirdweb.com",
+      "wss://archive.mindchain.info/ws",
+      "wss://seednode.mindchain.info/ws"
+    ],
+    "features": null,
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MIND Coin",
+      "symbol": "MIND",
+      "decimals": 18
+    },
+    "infoURL": "https://mindchain.info",
+    "shortName": "MIND",
+    "chainId": 9996,
+    "networkId": 9996,
+    "explorers": [
+      {
+        "name": "Mind Chain explorer",
+        "url": "https://mainnet.mindscan.info",
+        "standard": "EIP3091"
+      }
+    ]
+  }
+]
