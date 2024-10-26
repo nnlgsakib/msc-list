@@ -57,7 +57,7 @@ func main() {
 	iconFolder := "./data/icons"
 
 	// Base URL for icons
-	baseURL := "https://raw.githubusercontent.com/ethereum-lists/chains/refs/heads/master/_data/icons/"
+	baseURL := "https://raw.githubusercontent.com/nnlgsakib/msc-list/refs/heads/main/data/icons/"
 
 	// Read JSON files from the info folder
 	files, err := ioutil.ReadDir(infoFolder)
