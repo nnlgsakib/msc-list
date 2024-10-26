@@ -2,7 +2,7 @@
   {
     "name": "Ethereum Mainnet",
     "chain": "ETH",
-    "icon": "https://raw.githubusercontent.com/ethereum-lists/chains/refs/heads/master/_data/icons/ethereum.svg",
+    "icon": "https://raw.githubusercontent.com/nnlgsakib/msc-list/refs/heads/main/data/icons/ethereum.svg",
     "rpc": [
       "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
       "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
@@ -66,7 +66,7 @@
   {
     "name": "Mind Smart Chain Mainnet",
     "chain": "MIND",
-    "icon": "mindchain",
+    "icon": "https://raw.githubusercontent.com/nnlgsakib/msc-list/refs/heads/main/data/icons/mindchain.png",
     "rpc": [
       "https://rpc-msc.mindchain.info/",
       "https://seednode.mindchain.info",
